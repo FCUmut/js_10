@@ -6,7 +6,6 @@
 }
 
 .container {
-  width: 400px;
   margin: 0.5rem 0 0 1.5rem;
   padding: 5px;
 }
@@ -14,7 +13,7 @@
 #todo-form {
   height: 2rem;
   margin-top: 1rem;
-  width: 100%;
+  width: 50%;
 }
 
 #todo-form input {
@@ -46,10 +45,12 @@
 }
 
 #todo-list {
+  width: 80%;
   cursor: pointer;
   margin-top: 1rem;
   padding: 5px;
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
